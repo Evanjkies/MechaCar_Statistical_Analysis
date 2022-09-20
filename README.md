@@ -21,3 +21,8 @@ However, when we group the data by lot, as shown below, we see that manufactuing
 - In the lot3 t-test we get a p-value of .042 which is within the 95% confidence interval, which means we can reject the null hypothesis that there is no statistical difference between the mean of this manufactuing lot and the expected mean on 1500 psi.
 
 ## Study Design: MechaCar vs Competition
+I believe that when looking for a new car, the second most important thing people look for after price, is quality. A popular quality metric is the JD Power quality rating. This rating is based on the number of reported defects in new cars within their first 90 days off the lot. A useful statistical study would be to compare the mean quality rating from the competitions cars to the mean of the MechaCar samples.
+- Null Hypothesis = There is no difference between the mean JD Power quality rating of the MechaCar and its competition
+- Alternative Hypothesis = There is a statistically significant difference between the mean JD Power quality rating of the MechaCar and its competition
+- A one sample t-test would be used for this study because we are comparing the mean of a sample, the MechaCar, against the mean of the population, all of the other cars.
+- To perform this test we would simply need the JD Power rankings of every car model
